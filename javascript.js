@@ -45,12 +45,3 @@ const cart = {
 cart.add('A');
 console.log('Total: ', cart.total()); // Total: 50
 cart.add('B');
-console.log('Total: ', cart.total()); // Total: 80
-cart.add('A');
-console.log('Total: ', cart.total()); // Total: 130
-cart.add('A');
-console.log('Total: ', cart.total()); // Total: 160
-cart.add('C');
-console.log('Total: ', cart.total()); // Total: 180
-cart.remove('A');
-console.log('Total: ', cart.total()); // Total: 130
